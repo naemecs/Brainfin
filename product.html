@@ -1,110 +1,111 @@
-"use client";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brain Fintech</title>
+  <style>
+    body {
+      background: #eef6fc;
+      color: #0d2d57;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    header {
+      background: #0077d9;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #005bb5;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      padding: 2rem 5vw;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 2rem;
+      margin: 2rem 0;
+    }
+    .footer {
+      background: #dceffc;
+      text-align: center;
+      padding: 1rem;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Brain Fintech</h1>
+    <p>Empowering Finance with Innovation</p>
+  </header>
+  <nav>
+    <a href="#solutions">Solutions</a>
+    <a href="#features">Features</a>
+    <a href="#partnerships">Partnerships</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-export default function Home() {
-  return (
-    <div>
-      <header>
-        <h1>Brain Fintech</h1>
-        <p>Empowering Finance with Innovation</p>
-      </header>
-      <nav>
-        <a href="#solutions">Solutions</a>
-        <a href="#features">Features</a>
-        <a href="#partnerships">Partnerships</a>
-        <a href="#contact">Contact</a>
-      </nav>
-
-      <section id="solutions" className="section">
-        <div className="card">
-          <h2>Smart Financial Solutions</h2>
-          <ul>
-            <li>Streamlined onboarding for quick start</li>
-            <li>Intelligent automation for loan arrangement & crypto management</li>
-            <li>Custom AI algorithms personalized to your financial goals</li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="features" className="section">
-        <div className="card">
-          <h2>Platform Features</h2>
-          <ul>
-            <li>Professional portfolio management</li>
-            <li>Advanced trading platform with automated trading capabilities</li>
-            <li>Virtual Private Server solutions for uninterrupted trading</li>
-            <li>Enterprise-grade security and compliance</li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="partnerships" className="section">
-        <div className="card">
-          <h2>Partnership Models</h2>
-          <ul>
-            <li>Franchises, strategic partnerships, and employment models</li>
-            <li>Performance-based compensation</li>
-            <li>Data-driven business expansion strategies</li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="contact" className="section">
-        <div className="card">
-          <h2>Contact Us</h2>
-          <p>Email: info@brainfintech.com (placeholder)</p>
-          <p>Phone: +91-XXXXXXXXXX (placeholder)</p>
-        </div>
-      </section>
-
-      <footer className="footer">
-        © 2025 Brain Fintech. All rights reserved.
-      </footer>
-
-      <style jsx>{`
-        body {
-          background: #eef6fc;
-          color: #0d2d57;
-          font-family: Arial, sans-serif;
-          margin: 0;
-        }
-        header {
-          background: #0077d9;
-          color: white;
-          padding: 2rem 1rem;
-          text-align: center;
-        }
-        nav {
-          background: #005bb5;
-          display: flex;
-          justify-content: center;
-          gap: 2rem;
-          padding: 1rem 0;
-        }
-        nav a {
-          color: white;
-          text-decoration: none;
-          font-weight: bold;
-        }
-        nav a:hover {
-          text-decoration: underline;
-        }
-        .section {
-          padding: 2rem 5vw;
-        }
-        .card {
-          background: white;
-          border-radius: 10px;
-          box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
-          padding: 2rem;
-          margin: 2rem 0;
-        }
-        .footer {
-          background: #dceffc;
-          text-align: center;
-          padding: 1rem;
-          color: #222;
-        }
-      `}</style>
+  <section id="solutions" class="section">
+    <div class="card">
+      <h2>Smart Financial Solutions</h2>
+      <ul>
+        <li>Streamlined onboarding for quick start</li>
+        <li>Intelligent automation for loan arrangement & crypto management</li>
+        <li>Custom AI algorithms personalized to your financial goals</li>
+      </ul>
     </div>
-  );
-}
+  </section>
+
+  <section id="features" class="section">
+    <div class="card">
+      <h2>Platform Features</h2>
+      <ul>
+        <li>Professional portfolio management</li>
+        <li>Advanced trading platform with automated trading capabilities</li>
+        <li>Virtual Private Server solutions for uninterrupted trading</li>
+        <li>Enterprise-grade security and compliance</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="partnerships" class="section">
+    <div class="card">
+      <h2>Partnership Models</h2>
+      <ul>
+        <li>Franchises, strategic partnerships, and employment models</li>
+        <li>Performance-based compensation</li>
+        <li>Data-driven business expansion strategies</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="card">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:info@brainfintech.com">info@brainfintech.com</a> (placeholder)</p>
+      <p>Phone: +91-XXXXXXXXXX (placeholder)</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    © 2025 Brain Fintech. All rights reserved.
+  </footer>
+</body>
+</html>
